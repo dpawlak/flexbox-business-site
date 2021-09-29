@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  height: 100px;
+}
+header h1 {
+  margin: auto 0;
+}
+nav {
+  display: flex;
+  float: right;
+
+  height: 100px;
+}
+.nav li {
+  display: inline-flex;
+  margin: auto;
+  padding: 10px;
+}
+.statement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: bisque;
+}
+.statement_text {
+  text-align: center;
+}
+.services {
+  height: 100vh;
+}
+.services_grid_1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  height: 50vh;
+}
+
+.g1 {
+  background-color: red;
+}
+.g2 {
+  background-color: green;
+}
+.g3 {
+  background-color: Blue;
+}
+.g4 {
+  background-color: Yellow;
+}
+.statement,
+.services_grid_1 div {
+  border-radius: 8px;
+}
