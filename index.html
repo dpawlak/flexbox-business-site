@@ -1,61 +1,95 @@
 <!DOCTYPE html>
-
 <html>
+
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
   </head>
 
-  <body class='container'>
+  <body>
+    <div class='container'>
 
-    <nav>
-      <ul class="nav">
-        <li>About</li>
-        <li>Services</li>
-        <li>Team</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-
-    <header>
-      <h1>Geospatial Consultants</h1>
-    </header>  
+      <nav>
+        <ul class="nav">
+          <li><a href="#services">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#services">Contact</a></li>
+        </ul>
+      </nav>
       
-    <section class="statement">
-      <div class="statement_text">
-        <h2>Motto</h2>
-        <p>This is where we describe what we are</p>
-      </div>
-    </section>
-
-    <section class="services">
-
-      <h2>Services</h2>
-
-      <div class="services_grid_1">
-
-        <div class="g1">
-          <h3>First Item</h3>
-        </div>
-        <div class="g2">
-          <h3>Second Item</h3>
-        </div>
-        <div class="g3">
-          <h3>Third Item</h3>
-
-        </div>
-          <div class="g4">
-            <h3>Fourth Item</h3>
-
-          </div>
-
-      </div>
+      <header>
+        <h1>Geospatial Consultants, Inc.</h1>
+      </header>  
         
-      
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <section class="statement">
+        <div class="statement_text">
+          <h1 class="display-4">Solutions for your ambitious projects</h1>
+          <p class="lead">Our skilled team of engineers and surveyors will provide custom analytics to your geospatial endevors</p>
+          <a href="#services"><button class="btn btn-primary begin">Begin</button></a>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="services_grid_1">
+          <div class="g1">
+            <h3>Surveying</h3>
+          </div>
+          <div class="g2">
+            <h3>Engineering</h3>
+          </div>
+          <div class="g3">
+            <h3>Machine Learning</h3>
+          </div>
+            <div class="g4">
+              <h3>Deployment</h3>
+            </div>
+        </div>
+      </section>
+
+      <h2 class="team" id="team">Team</h2>
+      <section class="team">
+        <div class="team_box_1">
+          <div class="img_box">
+            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+            
+          </div>
+          <h4 style="text-align: center;"><strong>Michael</strong> - <em>Engineer</em></h4>
+        </div>
+        <div class="team_box_1">
+          <div class="img_box">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+          </div>
+          <h4 style="text-align: center;"><strong>Alex</strong> - <em>Surveyor</em></h4>
+        </div>
+        <div class="team_box_1">
+          <div class="img_box">
+            <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+          </div>
+          <h4 style="text-align: center;"><strong>Bryan</strong> - <em>Marketer</em></h4>
+        </div>
+      </section>
+
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-4">
+          <p>We are excited to begin working for you.</p>
+          <address>
+            <p>Written by <strong>Daniel Pawlak</strong></p> 
+            <br>
+            <a href="https://www.linkedin.com/in/daniel-pawlak-27b7501b5/" target="blank">LinkedIn</a>
+            <a href="https://github.com/dpawlak" target="blank">Github</a>
+            <a href="mailto:daniel.pawlak.und@gmail.com" >Email</a>
+          </address>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2021 Geospatial Consultants, Inc.</div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    </div>
   </body>
 </html>
